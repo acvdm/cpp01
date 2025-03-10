@@ -5,24 +5,25 @@
 #                                                     +:+ +:+         +:+      #
 #    By: anvander < anvander@student.42.fr >        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/03/03 11:37:12 by anvander          #+#    #+#              #
-#    Updated: 2025/03/10 09:58:38 by anvander         ###   ########.fr        #
+#    Created: 2025/03/10 11:00:09 by anvander          #+#    #+#              #
+#    Updated: 2025/03/10 11:06:32 by anvander         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = c++
 FLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = horde
+NAME = weapon
 
 HEADER = -I ./includes
 SRC_PATH = src/
 
 SOURCES = 	main.cpp \
-			Zombie.cpp \
-			zombieHorde.cpp 
+			Weapon.cpp \
+			HumanA.cpp \
+			HumanB.cpp
 
-SRC = $(addprefix $(SRC_PATH),$(SOURCES))
+SRC = $(addprefix $(SRC_PATH), $(SOURCES))
 
 OBJ_PATH = obj/
 OBJ = $(addprefix $(OBJ_PATH), $(SOURCES:.cpp=.o))
@@ -35,7 +36,7 @@ $(OBJ_PATH):
 $(NAME): $(OBJ)
 		$(CC) $(FLAGS) -o $@ $^
 
-$(OBJ_PATH)%.o: $(SRC_PATH)%.cpp 
+$(OBJ_PATH)%.o: $(SRC_PATH)%.cpp
 		$(CC) $(FLAGS) -c -o $@ $< $(HEADER)
 
 clean:
@@ -47,3 +48,5 @@ fclean: clean
 re: fclean all
 
 .PHONY: all re clean fclean
+
+
