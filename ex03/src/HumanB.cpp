@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   HumanB.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anvander < anvander@student.42.fr >        +#+  +:+       +#+        */
+/*   By: anvander <anvander@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 11:37:46 by anvander          #+#    #+#             */
-/*   Updated: 2025/03/10 19:38:49 by anvander         ###   ########.fr       */
+/*   Updated: 2025/03/11 10:06:41 by anvander         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,12 @@ void    HumanB::setWeapon(Weapon& weaponType)
 
 void    HumanB::attack(void)
 {
-    std::cout
-        << _name
-        << " attacks with their "
-        << _weaponB->getType()
-        << std::endl;
+    if (_weaponB != NULL)
+    {
+        std::cout
+            << _name
+            << " attacks with their "
+            << _weaponB->getType()
+            << std::endl;
+    }
 }
