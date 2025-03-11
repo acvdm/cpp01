@@ -6,14 +6,14 @@
 #    By: anvander <anvander@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/10 11:00:09 by anvander          #+#    #+#              #
-#    Updated: 2025/03/11 14:22:10 by anvander         ###   ########.fr        #
+#    Updated: 2025/03/11 17:46:12 by anvander         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = c++
 FLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = file
+NAME = SedIsForLosers
 
 SRC_PATH = src/
 

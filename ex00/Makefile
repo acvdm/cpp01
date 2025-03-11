@@ -3,17 +3,17 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: anvander < anvander@student.42.fr >        +#+  +:+       +#+         #
+#    By: anvander <anvander@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/03 11:37:12 by anvander          #+#    #+#              #
-#    Updated: 2025/03/09 15:36:39 by anvander         ###   ########.fr        #
+#    Updated: 2025/03/11 17:47:55 by anvander         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = c++
 FLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = zombie
+NAME = BraiiiiiiinnnzzzZ
 
 HEADER = -I ./includes
 SRC_PATH = src/

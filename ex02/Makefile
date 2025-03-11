@@ -3,17 +3,17 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: anvander < anvander@student.42.fr >        +#+  +:+       +#+         #
+#    By: anvander <anvander@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/10 09:58:17 by anvander          #+#    #+#              #
-#    Updated: 2025/03/10 10:20:38 by anvander         ###   ########.fr        #
+#    Updated: 2025/03/11 17:47:21 by anvander         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = c++
 FLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = string
+NAME = HITHISISBRAIN
 
 SRC_PATH = src/
 

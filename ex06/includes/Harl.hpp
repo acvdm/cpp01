@@ -6,7 +6,7 @@
 /*   By: anvander <anvander@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/11 14:23:48 by anvander          #+#    #+#             */
-/*   Updated: 2025/03/11 15:56:28 by anvander         ###   ########.fr       */
+/*   Updated: 2025/03/11 17:26:54 by anvander         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,10 @@
 #include <iostream>
 #include <string>
 
-#define DEBUG 1
-#define INFO 2
-#define WARNING 3
-#define ERROR 4
+// #define DEBUG 1
+// #define INFO 2
+// #define WARNING 3
+// #define ERROR 4
 
 class Harl
 {
@@ -38,6 +38,14 @@ class Harl
         void    error();
           
     typedef void  (Harl::*FuncPTR)();
+
+    enum    complain 
+    {
+        DEBUG = 1, 
+        INFO = 2, 
+        WARNING = 3, 
+        ERROR = 4
+    };
         
 };
 
