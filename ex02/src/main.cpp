@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anvander < anvander@student.42.fr >        +#+  +:+       +#+        */
+/*   By: anvander <anvander@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 10:05:12 by anvander          #+#    #+#             */
-/*   Updated: 2025/03/10 10:24:10 by anvander         ###   ########.fr       */
+/*   Updated: 2025/03/21 14:19:22 by anvander         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,9 @@ int main()
         << std::endl;
 
     std::cout
+        << std::endl
         << "***********************************************"
-        << std::endl;
+        << std::endl << std::endl;
         
     std::cout
         << "Value of the string variable " << string

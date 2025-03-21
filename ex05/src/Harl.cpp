@@ -6,7 +6,7 @@
 /*   By: anvander <anvander@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/11 14:32:30 by anvander          #+#    #+#             */
-/*   Updated: 2025/03/11 17:18:37 by anvander         ###   ########.fr       */
+/*   Updated: 2025/03/21 14:27:34 by anvander         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,20 @@
 
 Harl::Harl()
 {
+    std::cout
+        << "Constructor called for Harl"
+        << std::endl << std::endl;
+        
     return ;
 }
 
 Harl::~Harl()
 {
+    std::cout
+        << std::endl 
+        << "Destructor called for Harl"
+        << std::endl;
+        
     return ;
 }
 

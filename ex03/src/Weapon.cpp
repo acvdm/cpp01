@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Weapon.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anvander < anvander@student.42.fr >        +#+  +:+       +#+        */
+/*   By: anvander <anvander@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 11:15:08 by anvander          #+#    #+#             */
-/*   Updated: 2025/03/10 19:23:22 by anvander         ###   ########.fr       */
+/*   Updated: 2025/03/21 14:11:31 by anvander         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,17 +15,30 @@
 Weapon::Weapon()
 {
     _type = "";
+
+    std::cout
+        << "Constructor called for weapon of type " << _type
+        << std::endl;
+        
     return ;
 }
 
 Weapon::Weapon(std::string type)
 {
     _type = type;
+
+    std::cout
+        << "Constructor called for weapon of type " << _type
+        << std::endl;
+    
     return ;
 }
 
 Weapon::~Weapon()
 {
+    std::cout
+        << "Destructor called for weapon of type " << _type
+        << std::endl;
     return ;
 }
 

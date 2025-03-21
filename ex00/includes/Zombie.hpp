@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anvander < anvander@student.42.fr >        +#+  +:+       +#+        */
+/*   By: anvander <anvander@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/09 13:50:43 by anvander          #+#    #+#             */
-/*   Updated: 2025/03/09 16:14:12 by anvander         ###   ########.fr       */
+/*   Updated: 2025/03/19 14:53:21 by anvander         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ class Zombie
         ~Zombie();
 
         void    announce(void);
-
 
     private:
         std::string _name;
